@@ -7,7 +7,7 @@
   "parameters": {
     "resourceGroupName": {
       "type": "string",
-      "defaultValue": "ReadersHubHub-LiveProject",
+      "defaultValue": "ReadersHub-LiveProject",
       "metadata": {
         "description": "Name of the resource group for the resource. It is recommended to put resources under same resource group for better tracking."
       }
@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "ReadersHubHub-ReadersHub",
+      "defaultValue": "ReadersHub-ReadersHub",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }

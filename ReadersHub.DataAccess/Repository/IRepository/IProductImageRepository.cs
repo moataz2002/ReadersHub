@@ -1,11 +1,11 @@
-﻿using ReadersHubHub.Models;
+﻿using ReadersHub.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReadersHubHub.DataAccess.Repository.IRepository
+namespace ReadersHub.DataAccess.Repository.IRepository
 {
     public interface IProductImageRepository : IRepository<ProductImage>
     {

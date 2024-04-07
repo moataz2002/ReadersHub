@@ -17,10 +17,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using ReadersHubHub.Models;
-using ReadersHubHub.Utility;
+using ReadersHub.Models;
+using ReadersHub.Utility;
 
-namespace ReadersHubHubWeb.Areas.Identity.Pages.Account
+namespace ReadersHubWeb.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class ExternalLoginModel : PageModel

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReadersHubHub.Utility
+namespace ReadersHub.Utility
 {
     public static class SD
     {

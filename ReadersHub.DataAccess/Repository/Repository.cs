@@ -4,12 +4,12 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using ReadersHubHub.DataAccess.Repository.IRepository;
-using ReadersHubHub.DataAcess.Data;
+using ReadersHub.DataAccess.Repository.IRepository;
+using ReadersHub.DataAcess.Data;
 using Microsoft.EntityFrameworkCore;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace ReadersHubHub.DataAccess.Repository
+namespace ReadersHub.DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {

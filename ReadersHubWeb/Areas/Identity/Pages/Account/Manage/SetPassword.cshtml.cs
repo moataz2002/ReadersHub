@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ReadersHubHubWeb.Areas.Identity.Pages.Account.Manage
+namespace ReadersHubWeb.Areas.Identity.Pages.Account.Manage
 {
     public class SetPasswordModel : PageModel
     {

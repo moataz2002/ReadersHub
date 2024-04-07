@@ -10,9 +10,9 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
-using ReadersHubHub.DataAccess.Repository.IRepository;
-using ReadersHubHub.Models;
-using ReadersHubHub.Utility;
+using ReadersHub.DataAccess.Repository.IRepository;
+using ReadersHub.Models;
+using ReadersHub.Utility;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -24,7 +24,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 
-namespace ReadersHubHubWeb.Areas.Identity.Pages.Account
+namespace ReadersHubWeb.Areas.Identity.Pages.Account
 {
     public class RegisterModel : PageModel
     {

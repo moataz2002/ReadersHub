@@ -1,9 +1,9 @@
-﻿using ReadersHubHub.Models;
+﻿using ReadersHub.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace ReadersHubHub.DataAcess.Data
+namespace ReadersHub.DataAcess.Data
 {
     public class ApplicationDbContext : IdentityDbContext<IdentityUser> 
     {

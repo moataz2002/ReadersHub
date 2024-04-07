@@ -935,11 +935,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHub.Utility\\ReadersHubHub.Utility.csproj",
-      "projectName": "ReadersHubHub.Utility",
-      "projectPath": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHub.Utility\\ReadersHubHub.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHub.Utility\\ReadersHub.Utility.csproj",
+      "projectName": "ReadersHub.Utility",
+      "projectPath": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHub.Utility\\ReadersHub.Utility.csproj",
       "packagesPath": "C:\\Users\\Moataz M. Ewis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHub.Utility\\obj\\",
+      "outputPath": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHub.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,11 +1,11 @@
-﻿using ReadersHubHub.DataAccess.Repository.IRepository;
-using ReadersHubHub.DataAcess.Data;
-using ReadersHubHub.Models;
-using ReadersHubHub.Utility;
+﻿using ReadersHub.DataAccess.Repository.IRepository;
+using ReadersHub.DataAcess.Data;
+using ReadersHub.Models;
+using ReadersHub.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ReadersHubHubWeb.Areas.Admin.Controllers
+namespace ReadersHubWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = SD.Role_Admin)]

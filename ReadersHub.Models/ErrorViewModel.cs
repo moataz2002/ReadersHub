@@ -1,4 +1,4 @@
-namespace ReadersHubHub.Models
+namespace ReadersHub.Models
 {
     public class ErrorViewModel
     {

@@ -1,6 +1,6 @@
-﻿using ReadersHubHub.DataAcess.Data;
-using ReadersHubHub.Models;
-using ReadersHubHub.Utility;
+﻿using ReadersHub.DataAcess.Data;
+using ReadersHub.Models;
+using ReadersHub.Utility;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReadersHubHub.DataAccess.DbInitializer {
+namespace ReadersHub.DataAccess.DbInitializer {
     public class DbInitializer : IDbInitializer {
 
         private readonly UserManager<IdentityUser> _userManager;
@@ -49,8 +49,8 @@ namespace ReadersHubHub.DataAccess.DbInitializer {
 
                 //if roles are not created, then we will create admin user as well
                 _userManager.CreateAsync(new ApplicationUser {
-                    UserName = "admin@ReadersHubHub.com",
-                    Email = "admin@ReadersHubHub.com",
+                    UserName = "admin@ReadersHub.com",
+                    Email = "admin@ReadersHub.com",
                     Name = "Bhrugen Patel",
                     PhoneNumber = "1112223333",
                     StreetAddress = "test 123 Ave",
@@ -60,7 +60,7 @@ namespace ReadersHubHub.DataAccess.DbInitializer {
                 }, "Admin123*").GetAwaiter().GetResult();
 
 
-                ApplicationUser user = _db.ApplicationUsers.FirstOrDefault(u => u.Email == "admin@ReadersHubHub.com");
+                ApplicationUser user = _db.ApplicationUsers.FirstOrDefault(u => u.Email == "admin@ReadersHub.com");
                 _userManager.AddToRoleAsync(user, SD.Role_Admin).GetAwaiter().GetResult();
 
             }

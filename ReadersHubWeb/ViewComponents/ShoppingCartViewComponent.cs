@@ -3,7 +3,7 @@ using ReadersHub.Utility;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-namespace ReadersHubHubWeb.ViewComponents {
+namespace ReadersHubWeb.ViewComponents {
     public class ShoppingCartViewComponent : ViewComponent {
 
         private readonly IUnitOfWork _unitOfWork;

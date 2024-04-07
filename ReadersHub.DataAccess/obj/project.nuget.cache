@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "0QXoRUEi4i+G1If8h0jue4gipNFwmjQqGKt5npahI7jaf4Eo2Fr3ak4AJ79tbkp4afp+/t6u04G1txk0z5izag==",
   "success": false,
-  "projectFilePath": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHubHub.DataAccess\\ReadersHubHub.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHub.DataAccess\\ReadersHub.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moataz M. Ewis\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Moataz M. Ewis\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -90,8 +90,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHub.Utility\\ReadersHubHub.Utility.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHub.Utility\\ReadersHubHub.Utility.csproj",
+      "message": "Unable to find project 'C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHub.Utility\\ReadersHub.Utility.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHub.Utility\\ReadersHub.Utility.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -99,8 +99,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHub.Models\\ReadersHubHub.Models.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHub.Models\\ReadersHubHub.Models.csproj",
+      "message": "Unable to find project 'C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHub.Models\\ReadersHub.Models.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHub.Models\\ReadersHub.Models.csproj",
       "targetGraphs": [
         "net8.0"
       ]

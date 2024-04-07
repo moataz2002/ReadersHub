@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 
-namespace ReadersHubHub.Utility {
+namespace ReadersHub.Utility {
     public class EmailSender : IEmailSender
     {
         public string SendGridSecret { get; set; }
@@ -24,7 +24,7 @@ namespace ReadersHubHub.Utility {
 
             var client = new SendGridClient(SendGridSecret);
 
-            var from = new EmailAddress("hello@ReadersHubHub.com", "ReadersHub Book");
+            var from = new EmailAddress("hello@ReadersHub.com", "ReadersHub Book");
             var to = new EmailAddress(email);
             var message = MailHelper.CreateSingleEmail(from, to, subject, "", htmlMessage);
 

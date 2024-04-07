@@ -1,12 +1,12 @@
-﻿using ReadersHubHub.DataAccess.Repository.IRepository;
-using ReadersHubHub.DataAcess.Data;
+﻿using ReadersHub.DataAccess.Repository.IRepository;
+using ReadersHub.DataAcess.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReadersHubHub.DataAccess.Repository
+namespace ReadersHub.DataAccess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {

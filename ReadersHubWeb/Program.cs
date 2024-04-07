@@ -1,12 +1,12 @@
-using ReadersHubHub.DataAccess.Repository;
-using ReadersHubHub.DataAccess.Repository.IRepository;
-using ReadersHubHub.DataAcess.Data;
+using ReadersHub.DataAccess.Repository;
+using ReadersHub.DataAccess.Repository.IRepository;
+using ReadersHub.DataAcess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using ReadersHubHub.Utility;
+using ReadersHub.Utility;
 using Stripe;
-using ReadersHubHub.DataAccess.DbInitializer;
+using ReadersHub.DataAccess.DbInitializer;
 
 var builder = WebApplication.CreateBuilder(args);
 

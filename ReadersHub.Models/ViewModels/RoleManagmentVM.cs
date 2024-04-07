@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReadersHubHub.Models.ViewModels {
+namespace ReadersHub.Models.ViewModels {
     public class RoleManagmentVM {
         public ApplicationUser ApplicationUser { get; set; }
         public IEnumerable<SelectListItem> RoleList { get; set; }

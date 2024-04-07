@@ -1,7 +1,7 @@
-﻿using ReadersHubHub.DataAccess.Repository.IRepository;
-using ReadersHubHub.Models;
-using ReadersHubHub.Models.ViewModels;
-using ReadersHubHub.Utility;
+﻿using ReadersHub.DataAccess.Repository.IRepository;
+using ReadersHub.Models;
+using ReadersHub.Models.ViewModels;
+using ReadersHub.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +10,7 @@ using Stripe.Checkout;
 using System.Diagnostics;
 using System.Security.Claims;
 
-namespace ReadersHubHubWeb.Areas.Admin.Controllers {
+namespace ReadersHubWeb.Areas.Admin.Controllers {
 	[Area("admin")]
     [Authorize]
 	public class OrderController : Controller {

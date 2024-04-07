@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "s/tJghEeT1J2YQmD0v2LcDDQr73T8okuLOvJMkdaupWDsPQu2iXLNIYdv77DkHVYrj2An3h8qMib7IMyq4Duig==",
   "success": false,
-  "projectFilePath": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHubWeb\\ReadersHubHubWeb.csproj",
+  "projectFilePath": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHubWeb\\ReadersHubWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moataz M. Ewis\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Moataz M. Ewis\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -179,8 +179,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHub.DataAccess\\ReadersHubHub.DataAccess.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHubHub\\ReadersHub.DataAccess\\ReadersHubHub.DataAccess.csproj",
+      "message": "Unable to find project 'C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHub.DataAccess\\ReadersHub.DataAccess.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Moataz M. Ewis\\source\\repos\\ReadersHub\\ReadersHub.DataAccess\\ReadersHub.DataAccess.csproj",
       "targetGraphs": [
         "net8.0"
       ]

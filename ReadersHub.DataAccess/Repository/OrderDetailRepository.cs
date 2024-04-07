@@ -1,6 +1,6 @@
-﻿using ReadersHubHub.DataAccess.Repository.IRepository;
-using ReadersHubHub.DataAcess.Data;
-using ReadersHubHub.Models;
+﻿using ReadersHub.DataAccess.Repository.IRepository;
+using ReadersHub.DataAcess.Data;
+using ReadersHub.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReadersHubHub.DataAccess.Repository
+namespace ReadersHub.DataAccess.Repository
 {
     public class OrderDetailRepository : Repository<OrderDetail>, IOrderDetailRepository
     {

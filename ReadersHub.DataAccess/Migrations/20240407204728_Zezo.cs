@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace ReadersHubHub.DataAccess.Migrations
+namespace ReadersHub.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class Zezo : Migration

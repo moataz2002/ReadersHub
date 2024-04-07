@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace ReadersHubHub.Models
+namespace ReadersHub.Models
 {
     public class Category
     {

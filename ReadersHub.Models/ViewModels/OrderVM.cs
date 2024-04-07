@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReadersHubHub.Models.ViewModels {
+namespace ReadersHub.Models.ViewModels {
 	public class OrderVM {
 		public OrderHeader OrderHeader { get; set; }
         public IEnumerable<OrderDetail> OrderDetail { get; set; }

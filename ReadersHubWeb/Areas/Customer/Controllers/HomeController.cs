@@ -1,13 +1,13 @@
-﻿using ReadersHubHub.DataAccess.Repository.IRepository;
-using ReadersHubHub.Models;
-using ReadersHubHub.Utility;
+﻿using ReadersHub.DataAccess.Repository.IRepository;
+using ReadersHub.Models;
+using ReadersHub.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Security.Claims;
 
-namespace ReadersHubHubWeb.Areas.Customer.Controllers
+namespace ReadersHubWeb.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller

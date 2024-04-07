@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReadersHubHub.DataAccess.DbInitializer {
+namespace ReadersHub.DataAccess.DbInitializer {
     public interface IDbInitializer {
         void Initialize();
     }
